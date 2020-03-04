@@ -1,0 +1,35 @@
+{
+  "members": [
+    {
+      "avatar_url": "https://unsplash.com/photos/sHfo3WOgGTU",
+      "name": "Ayra Lopes",
+      "email": "ijryes@hotmail.com",
+      "birth": 1538265600000,
+      "gender": "F",
+      "blood": "O+",
+      "weight": "25",
+      "height": "60",
+      "id": 1
+    }
+  ],
+  "instructors": [
+    {
+      "id": 1,
+      "avatar_url": "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Ivanildo Lopes da Silva Junior",
+      "birth": 319161600000,
+      "gender": "M",
+      "services": "Musculação",
+      "created_at": 1582632945123
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1548690312-e3b507d8c110?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
+      "name": "Natally Emanuela de Oliveira Lopes",
+      "birth": 759974400000,
+      "gender": "F",
+      "services": "Ginástica",
+      "created_at": 1582860155725
+    }
+  ]
+}
