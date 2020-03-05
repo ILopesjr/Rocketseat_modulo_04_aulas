@@ -52,7 +52,7 @@ exports.show = function(req, res){
 
     const member = {
         ...foundMember,
-        birth: date(foundMember.birth).bithDay,
+        birth: date(foundMember.birth).birthDay,
     }
 
     return res.render("members/show", {member});
@@ -69,7 +69,7 @@ exports.edit = function(req, res){
 
     const member = {
         ...foundMember,
-        birth: date(foundMember.birth)
+        birth: date(foundMember.birth).iso
     }
 
     return res.render('members/edit', { member });
@@ -86,7 +86,7 @@ exports.put = function(req, res){
        }
     });
 
-    if (!foundMember) return res.send("Instrutor não localizado!")
+    if (!foundMember) return res.send("Membro não localizado!")
 
     const member = {
         ...foundMember,
